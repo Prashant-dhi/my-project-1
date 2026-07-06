@@ -9,7 +9,7 @@ export default function ProfilePage() {
   const [appliedCount, setAppliedCount] = useState(0);
   const [postedCount, setPostedCount] = useState(0);
   const [loading, setLoading] = useState(true);
-
+//test change
   useEffect(() => {
     const fetchCounts = async () => {
       setLoading(true);
